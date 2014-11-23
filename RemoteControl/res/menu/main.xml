@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mi5t4n.remotecontrol.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/connect"
+        android:orderInCategory="1"
+        android:icon="@drawable/connect"
+        android:title="@string/connect"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="3"
+        android:title="@string/quit"
+        android:icon="@drawable/quit"
+        app:showAsAction="never"/>
+
+</menu>
